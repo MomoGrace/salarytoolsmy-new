@@ -8,6 +8,72 @@
 <link rel="canonical" href="https://salarytoolsmy.com/pcb-example.html">
 <link rel="stylesheet" href="/assets/style.css">
 <script defer src="/assets/script.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salarytoolsmy.com/"},
+    {"@type": "ListItem", "position": 2, "name": "PCB Tax Example", "item": "https://salarytoolsmy.com/pcb-example.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does PCB stand for on my Malaysian payslip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PCB stands for Potongan Cukai Bulanan, which means Scheduled Monthly Tax Deduction. It is the estimated income tax that your employer deducts from your salary every month and remits to LHDN (Inland Revenue Board of Malaysia) on your behalf. PCB is not the final tax — it is an advance payment toward your annual income tax liability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is PCB calculated from my monthly salary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PCB is calculated using the LHDN PCB deduction schedule. The formula starts with your gross monthly salary, subtracts the employee EPF contribution, and then applies the appropriate PCB rate from the schedule based on your taxable income, marital status, and number of children declared. The resulting amount is your PCB deduction for that month."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does my PCB mean I do not need to file a tax return?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. PCB is only an estimate. Every taxpayer in Malaysia with income above the threshold must still file an annual tax return (Borang BE for individuals) with LHDN. After filing, LHDN compares the total PCB you have paid throughout the year with your actual tax liability. If you overpaid, you receive a refund. If you underpaid, you must pay the balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my PCB change from month to month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. PCB can change when your salary changes (such as after a raise or during bonus months), when you update your tax relief details with your employer using form TP1, or when your employer adjusts your PCB category (e.g., from single to married). Overtime pay and variable allowances can also affect the monthly PCB amount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I tell if my PCB is too high or too low?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Compare your total monthly PCB with what your annual tax should be based on your estimated taxable income. If your total PCB for the year exceeds your actual tax liability, you will receive a refund after filing. If your total PCB is too low, you will owe the balance. You can use an income tax calculator to estimate your annual tax and compare it with the sum of 12 months of PCB."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to PCB when I receive a bonus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bonuses in Malaysia are subject to a separate PCB calculation using the LHDN bonus PCB schedule. The bonus PCB is typically higher as a percentage because it is calculated on the assumption that the bonus amount applies to every month of the year (the annualised method). This can result in a noticeably larger PCB deduction in the month the bonus is paid."
+      }
+    }
+  ]
+}
+</script>
 <link rel="stylesheet" href="/assets/cookie-consent.css">
 </head>
 <body>
@@ -35,13 +101,122 @@
 <div class="container"><div class="content">
 <p class="eyebrow">Malaysia tax guide</p>
 <h1>PCB Tax Malaysia Example: How Monthly Tax Deduction Works</h1>
-<p>PCB, or monthly tax deduction, is used by employers to deduct estimated income tax from an employee’s salary during the year.</p>
-<h2>Simple PCB example</h2>
-<div class="result-box"><p><strong>Gross salary:</strong> Monthly salary before deductions</p><p><strong>Common deductions:</strong> EPF, SOCSO and EIS</p><p><strong>PCB:</strong> Estimated monthly tax deduction</p><p><strong>Net salary:</strong> Salary after common deductions</p></div>
-<h2>Why PCB can change</h2><p>Your PCB may change when salary, bonus, relief information or payroll settings change.</p>
-<h2>Use the calculator</h2><p><a class="button" href="/pcb-calculator-malaysia.html">Check Monthly PCB Now</a></p>
-<h2>Related tools</h2><ul><li><a href="/income-tax-calculator-malaysia.html">Income Tax Calculator Malaysia</a></li><li><a href="/bonus-tax-calculator-malaysia.html">Bonus Tax Calculator Malaysia</a></li></ul>
-<p class="note">This page is general information only and is not tax advice.</p>
+
+<h2>What Is PCB and Why Does It Appear on Your Payslip?</h2>
+<p><strong>PCB (Potongan Cukai Bulanan)</strong>, or Scheduled Monthly Tax Deduction, is a mechanism used by employers in Malaysia to deduct estimated income tax directly from an employee's monthly salary. The deducted amount is then remitted to LHDN (Inland Revenue Board of Malaysia) on the employee's behalf. PCB appears on almost every payslip for employees earning above the taxable income threshold.</p>
+<p>PCB serves as an advance payment toward your annual income tax. It is <strong>not</strong> your final tax amount — the actual tax is determined only when you file your annual tax return with LHDN.</p>
+
+<h2>How PCB Is Calculated</h2>
+<p>PCB is calculated using the official LHDN PCB deduction schedule. The calculation follows these steps:</p>
+<ol>
+  <li><strong>Start with gross monthly salary</strong> – your basic pay plus fixed allowances.</li>
+  <li><strong>Subtract employee EPF contribution</strong> – this reduces your taxable income for PCB purposes (tax relief on EPF).</li>
+  <li><strong>Apply the PCB schedule</strong> – LHDN provides tables based on taxable income ranges. Your employer selects the correct row based on your marital status, number of children, and taxable income after EPF deduction.</li>
+  <li><strong>The result is your monthly PCB deduction.</strong></li>
+</ol>
+<div class="result-box"><p><strong>PCB Formula:</strong> PCB = Schedule amount for (Gross Salary - Employee EPF) based on category (single/married, number of children)</p></div>
+
+<h2>PCB Example with RM4,000 Monthly Salary</h2>
+<p>Let us walk through a detailed PCB example for an employee earning RM4,000 gross per month. Assume the employee is single with no dependents and is below 60 years of age (EPF rate: 11%).</p>
+<table>
+  <thead>
+    <tr><th>Item</th><th>Calculation</th><th>Amount (RM)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gross Monthly Salary</td><td>Basic Pay</td><td><strong>4,000.00</strong></td></tr>
+    <tr><td>Employee EPF (11%)</td><td>4,000 x 0.11</td><td>440.00</td></tr>
+    <tr><td>Taxable Income for PCB</td><td>4,000 - 440</td><td>3,560.00</td></tr>
+    <tr><td>PCB (Single, 0 children)</td><td>Per LHDN schedule</td><td>37.80</td></tr>
+  </tbody>
+</table>
+<p>In this example, the employee's PCB deduction is approximately RM37.80 per month. Over 12 months, total PCB paid would be about RM453.60. When the employee files their annual tax return, LHDN will calculate the actual tax based on total annual income and reliefs. If actual tax is lower than RM453.60, the employee receives a refund.</p>
+
+<h2>Full Salary Breakdown Including PCB</h2>
+<p>Here is the complete monthly salary breakdown for the same RM4,000 employee, showing all standard deductions:</p>
+<table>
+  <thead>
+    <tr><th>Deduction</th><th>Amount (RM)</th><th>Running Total (RM)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gross Monthly Salary</td><td>-</td><td><strong>4,000.00</strong></td></tr>
+    <tr><td>- Employee EPF (11%)</td><td>440.00</td><td>3,560.00</td></tr>
+    <tr><td>- SOCSO (First Category)</td><td>48.50</td><td>3,511.50</td></tr>
+    <tr><td>- EIS (0.2%)</td><td>8.00</td><td>3,503.50</td></tr>
+    <tr><td>- PCB (Monthly Tax)</td><td>37.80</td><td><strong>3,465.70</strong></td></tr>
+  </tbody>
+</table>
+<p>The estimated take-home pay for this employee is approximately <strong>RM3,465.70</strong> per month. Deductions total RM534.30, or about 13.4% of gross salary. The actual figures may vary slightly depending on the specific SOCSO wage band applied and any additional voluntary deductions.</p>
+
+<h2>PCB vs Annual Income Tax</h2>
+<p>Understanding the relationship between PCB and annual income tax is critical for Malaysian taxpayers:</p>
+<ul>
+  <li><strong>PCB is an estimate</strong> deducted monthly throughout the year. It is designed to spread your tax burden across 12 months.</li>
+  <li><strong>Annual income tax</strong> is the actual tax calculated by LHDN when you file your tax return (Borang BE). This considers your full year's income, all tax reliefs, and rebates.</li>
+  <li><strong>If total PCB > actual tax:</strong> LHDN issues a refund, usually credited to your bank account.</li>
+  <li><strong>If total PCB < actual tax:</strong> You must pay the balance to LHDN, typically within 30 days of receiving your tax assessment.</li>
+</ul>
+<p>This is why filing your annual tax return is essential — it reconciles your monthly PCB payments with your actual tax liability.</p>
+
+<h2>How to Check If Your PCB Is Correct</h2>
+<p>If you suspect your PCB is too high or too low, consider the following steps:</p>
+<ol>
+  <li><strong>Verify your EPF deduction:</strong> PCB is based on gross minus EPF. If your employer is deducting the wrong EPF amount, your PCB will also be wrong.</li>
+  <li><strong>Check your tax category:</strong> Ensure your employer has your correct marital status and number of dependents. Submit a TP1 form to update this information.</li>
+  <li><strong>Use an income tax calculator:</strong> Estimate your annual tax and divide by 12. If the result differs significantly from your monthly PCB, there may be an issue.</li>
+  <li><strong>Contact your HR department:</strong> They can review your payroll settings and PCB category based on the latest LHDN schedule.</li>
+  <li><strong>File your tax return:</strong> The annual filing process automatically reconciles any overpayment or underpayment of PCB.</li>
+</ol>
+
+<h2>Common Mistakes About PCB</h2>
+<ul>
+  <li><strong>Assuming PCB is the final tax:</strong> Many employees think PCB settles their entire tax liability. In reality, the final tax is only determined when you file your annual return. You may owe more or receive a refund.</li>
+  <li><strong>Not filing annual tax returns:</strong> Even if your employer deducts PCB, you are still legally required to file an income tax return if your income exceeds the threshold.</li>
+  <li><strong>Not updating tax relief details:</strong> Getting married, having children, or qualifying for new reliefs should be communicated to your employer via TP1 so your PCB can be adjusted.</li>
+  <li><strong>Ignoring bonus PCB:</strong> Bonuses are taxed separately using the LHDN bonus schedule, often resulting in a much higher PCB for that month.</li>
+</ul>
+
+<div class="cta-panel"><h2>Calculate your monthly PCB</h2><p>Use our PCB calculator to estimate your monthly tax deduction instantly.</p><p><a class="button" href="/pcb-calculator-malaysia.html">Check Monthly PCB Now</a></p></div>
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+  <summary>What does PCB stand for on my Malaysian payslip?</summary>
+  <p>PCB stands for Potongan Cukai Bulanan, which means Scheduled Monthly Tax Deduction. It is the estimated income tax that your employer deducts from your salary every month and remits to LHDN (Inland Revenue Board of Malaysia) on your behalf. PCB is not the final tax — it is an advance payment toward your annual income tax liability.</p>
+</details>
+
+<details>
+  <summary>How is PCB calculated from my monthly salary?</summary>
+  <p>PCB is calculated using the LHDN PCB deduction schedule. The formula starts with your gross monthly salary, subtracts the employee EPF contribution, and then applies the appropriate PCB rate from the schedule based on your taxable income, marital status, and number of children declared. The resulting amount is your PCB deduction for that month.</p>
+</details>
+
+<details>
+  <summary>Does my PCB mean I do not need to file a tax return?</summary>
+  <p>No. PCB is only an estimate. Every taxpayer in Malaysia with income above the threshold must still file an annual tax return (Borang BE for individuals) with LHDN. After filing, LHDN compares the total PCB you have paid throughout the year with your actual tax liability. If you overpaid, you receive a refund. If you underpaid, you must pay the balance.</p>
+</details>
+
+<details>
+  <summary>Can my PCB change from month to month?</summary>
+  <p>Yes. PCB can change when your salary changes (such as after a raise or during bonus months), when you update your tax relief details with your employer using form TP1, or when your employer adjusts your PCB category (e.g., from single to married). Overtime pay and variable allowances can also affect the monthly PCB amount.</p>
+</details>
+
+<details>
+  <summary>How can I tell if my PCB is too high or too low?</summary>
+  <p>Compare your total monthly PCB with what your annual tax should be based on your estimated taxable income. If your total PCB for the year exceeds your actual tax liability, you will receive a refund after filing. If your total PCB is too low, you will owe the balance. You can use an income tax calculator to estimate your annual tax and compare it with the sum of 12 months of PCB.</p>
+</details>
+
+<details>
+  <summary>What happens to PCB when I receive a bonus?</summary>
+  <p>Bonuses in Malaysia are subject to a separate PCB calculation using the LHDN bonus PCB schedule. The bonus PCB is typically higher as a percentage because it is calculated on the assumption that the bonus amount applies to every month of the year (the annualised method). This can result in a noticeably larger PCB deduction in the month the bonus is paid.</p>
+</details>
+
+<h2>Related Tools</h2>
+<ul>
+  <li><a href="/pcb-calculator-malaysia.html">PCB Tax Calculator Malaysia</a></li>
+  <li><a href="/income-tax-calculator-malaysia.html">Income Tax Calculator Malaysia</a></li>
+  <li><a href="/bonus-tax-calculator-malaysia.html">Bonus Tax Calculator Malaysia</a></li>
+  <li><a href="/salary-calculator-malaysia.html">Salary Calculator Malaysia</a></li>
+</ul>
+<p class="note">This page is general information only and is not tax advice. PCB amounts are estimates based on the LHDN schedule and may not reflect your exact tax position. Please consult LHDN or a qualified tax professional for personalised advice.</p>
 </div></div>
 <footer class="footer">
   <div class="footer-inner">
