@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EIS Calculator Malaysia (Employment Insurance Estimate)</title>
+<meta name="description" content="Estimate employee and employer EIS contributions for Malaysia salary planning. Calculate simplified monthly EIS contribution estimates for take-home pay planning.">
+<link rel="canonical" href="https://salarytoolsmy.com/eis-calculator-malaysia.html">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+.tool-page{background:#f6f8fb;}
+.tool-hero{padding:64px 20px;background:linear-gradient(115deg,#dbfff5 0%,#eef7ff 44%,#f8fafc 100%);}
+.tool-hero .hero-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:1fr 520px;gap:42px;align-items:center;}
+.tool-hero h1{font-size:clamp(42px,5vw,68px);line-height:1.05;margin:14px 0 18px;color:#111827;letter-spacing:-.04em;}
+.tool-hero .lead{font-size:18px;line-height:1.75;color:#35506b;margin:0 0 24px;}
+.tool-kicker{display:inline-flex;align-items:center;background:#ccfbf1;color:#006b5f;border-radius:999px;padding:7px 12px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+.tool-card{background:#fff;border:1px solid #dbe3ef;border-radius:22px;padding:28px;box-shadow:0 20px 48px rgba(15,23,42,.10);}
+.tool-card h2{font-size:26px;margin:0 0 18px;color:#001f4d;}
+.tool-card label{display:block;font-weight:800;margin-bottom:8px;color:#001f4d;}
+.tool-card input,.tool-card select{width:100%;box-sizing:border-box;border:1px solid #cbd5e1;border-radius:12px;padding:13px 14px;font-size:16px;background:#fff;}
+.tool-card button{margin-top:14px;background:#0f7f72;color:#fff;border:0;border-radius:12px;padding:14px 18px;font-weight:800;cursor:pointer;box-shadow:0 10px 24px rgba(15,127,114,.18);}
+.tool-card button:hover{background:#0b695f;}
+.tool-result{margin-top:18px;background:#ecfdf8;border:1px solid #75f0dc;border-radius:16px;padding:18px;line-height:1.7;color:#001f4d;}
+.tool-result strong{color:#006b5f;}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.content-wrap{max-width:960px;margin:0 auto;}
+.tool-section{padding:48px 20px;}
+.tool-section .container{max-width:1120px;margin:0 auto;}
+.info-card{background:#fff;border:1px solid #dbe3ef;border-radius:20px;padding:28px;margin:18px 0;box-shadow:0 10px 28px rgba(15,23,42,.05);}
+.info-card h2,.info-card h3{color:#001f4d;margin-top:0;}
+.info-card p,.info-card li{color:#243b53;line-height:1.75;}
+.tool-table{width:100%;border-collapse:collapse;background:#fff;border-radius:16px;overflow:hidden;margin:18px 0;box-shadow:0 8px 22px rgba(15,23,42,.05);}
+.tool-table th,.tool-table td{padding:14px 16px;text-align:left;border-bottom:1px solid #e5edf6;vertical-align:top;}
+.tool-table th{background:#eff6ff;color:#001f4d;font-weight:900;}
+.tool-table tr:last-child td{border-bottom:0;}
+.faq details{background:#fff;border:1px solid #dbe3ef;border-radius:16px;padding:16px 18px;margin:12px 0;}
+.faq summary{font-weight:900;color:#001f4d;cursor:pointer;}
+.faq p{color:#243b53;line-height:1.75;}
+.notice{background:#fff7ed;border:1px solid #fed7aa;border-radius:18px;padding:18px;color:#7c2d12;line-height:1.7;margin-top:24px;}
+.callout{margin:30px 0;padding:28px;border-radius:24px;background:linear-gradient(135deg,#0f766e,#115e59);color:#fff;box-shadow:0 18px 40px rgba(15,118,110,.22);}
+.callout h2{margin-top:0;color:#fff;}
+.callout p{color:#d1fae5;}
+.callout .related-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px;}
+.callout .related-grid a{display:block;background:#fff;border:1px solid #dbe3ef;border-radius:16px;padding:18px;text-decoration:none;color:#001f4d;font-weight:800;box-shadow:0 8px 22px rgba(15,23,42,.04);}
+.callout .related-grid a:hover{border-color:#8bd8ca;transform:translateY(-2px);}
+@media(max-width:920px){.tool-hero .hero-inner{grid-template-columns:1fr}.tool-card{max-width:680px}.callout .related-grid{grid-template-columns:1fr;}.form-grid{grid-template-columns:1fr;}}
+@media(max-width:640px){.tool-hero{padding:44px 16px}.tool-card{padding:22px}.tool-table{font-size:14px}.tool-table th,.tool-table td{padding:12px 10px}}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://salarytoolsmy.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculators",
+      "item": "https://salarytoolsmy.com/salary-calculator-malaysia.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "EIS Calculator",
+      "item": "https://salarytoolsmy.com/eis-calculator-malaysia.html"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is EIS (Employment Insurance System) in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EIS is a social security scheme managed by PERKESO that provides temporary financial support to employees who lose their jobs involuntarily. It covers situations such as retrenchment, company closure, and certain types of resignation. EIS also offers retraining programmes to help affected workers find new employment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who needs to contribute to EIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All Malaysian citizens and permanent residents who are employed in the private sector and earn a monthly wage of RM 30 or more are required to contribute to EIS. Both the employee and the employer must make monthly contributions, regardless of whether the employment is permanent, temporary, or contract-based."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much is the EIS contribution rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The current EIS contribution rate is 0.2% of wages for the employee and 0.2% for the employer, totalling 0.4% per month. The rate is applied to the employee's monthly wages up to the maximum wage ceiling of RM 6,000. For a RM 3,000 monthly salary, the employee pays RM 6.00 and the employer pays RM 6.00."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the maximum salary subject to EIS deduction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The EIS wage ceiling is RM 6,000 per month. If your monthly salary exceeds RM 6,000, only the first RM 6,000 is used for EIS calculation. This means the maximum monthly EIS deduction for an employee is RM 12.00 (0.2% of RM 6,000), regardless of how much you earn above the ceiling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I claim EIS benefits if I lose my job?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To claim EIS benefits, you must register with PERKESO and submit a claim through the myFutureJobs portal or at a PERKESO branch, typically within 60 days of your last working day. You will need documents such as your termination letter, IC, and bank statements. Approved claimants may receive job-search allowance for up to six months, subject to eligibility conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between EIS and SOCSO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While both EIS and SOCSO are administered by PERKESO, they serve different purposes. SOCSO (also known as PERKESO) primarily covers employment injuries, occupational diseases, and invalidity. EIS specifically provides job-loss protection and retraining support. They have separate contribution rates and calculations, so they appear as distinct items on your payslip."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is EIS mandatory for all employees in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EIS is mandatory for most private sector employees who are Malaysian citizens or permanent residents, aged between 16 and 60, and earning RM 30 or more per month. However, certain categories of workers such as domestic servants, government employees, and self-employed individuals are generally not covered under EIS unless they opt into a voluntary scheme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a self-employed person need to pay EIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard EIS contributions apply only to employees in the private sector. Self-employed individuals, freelancers, and gig workers are not automatically covered under the mandatory EIS scheme. However, PERKESO has introduced voluntary contribution schemes such as SIP (Self-Employment Social Protection) which allow self-employed persons to opt in for limited social security coverage, including some EIS-like benefits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is EIS the same as SOCSO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. EIS and SOCSO are different payroll contribution items. Both may appear on a Malaysian employee payslip, but they are calculated separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this the official EIS calculation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. SalaryToolsMY provides simplified estimates for planning only. Final contribution should follow official PERKESO schedules and payroll rules."
+      }
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/assets/cookie-consent.css">
+</head>
+<body class="tool-page">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="/">SalaryToolsMY</a>
+    <nav class="tool-nav">
+      <a href="/salary-calculator-malaysia.html">Salary</a>
+      <a href="/epf-calculator-malaysia.html">EPF</a>
+      <a href="/socso-calculator-malaysia.html">SOCSO</a>
+      <a href="/pcb-calculator-malaysia.html">PCB Tax</a>
+      <a href="/net-salary-calculator-malaysia.html">Take-Home Pay</a>
+      <a href="/salary-guides-malaysia.html">Guides</a>
+      <a href="/salary-calculator-malaysia.html" class="nav-cta">Calculate Your Take-Home Pay</a>
+    </nav>
+  </div>
+</header>
+
+<div class="quick-tools">
+  <a href="/salary-calculator-malaysia.html">Salary Calculator</a>
+  <a href="/net-salary-calculator-malaysia.html">Take-Home Pay</a>
+  <a href="/epf-calculator-malaysia.html">EPF Calculator</a>
+  <a href="/socso-calculator-malaysia.html">SOCSO Calculator</a>
+  <a href="/pcb-calculator-malaysia.html">PCB Tax Calculator</a>
+  <a href="/salary-guides-malaysia.html">Salary Guides</a>
+</div>
+
+<main>
+<section class="tool-hero">
+  <div class="hero-inner">
+    <div>
+      <span class="tool-kicker">Free Malaysia calculator</span>
+      <h1>EIS Calculator Malaysia</h1>
+      <p class="lead">Estimate monthly employee and employer EIS contribution amounts for Malaysia payroll and take-home pay planning.</p>
+      <div class="hero-actions">
+        <a class="button" href="/salary-calculator-malaysia.html">Calculate Take-Home Pay</a>
+        <a class="button secondary" href="/salary-guides-malaysia.html">Read Salary Guides</a>
+      </div>
+    </div>
+
+    <div class="tool-card">
+      <h2>EIS Contribution Estimate</h2>
+      <div class="form-grid">
+        <div>
+          <label>Monthly Salary (RM)</label>
+          <input id="eisSalary" type="number" value="3000">
+        </div>
+        <div>
+          <label>Wage Ceiling (RM)</label>
+          <input id="eisCeiling" type="number" value="6000">
+        </div>
+        <div>
+          <label>Employee EIS Rate (%)</label>
+          <input id="employeeRate" type="number" value="0.2" step="0.1">
+        </div>
+        <div>
+          <label>Employer EIS Rate (%)</label>
+          <input id="employerRate" type="number" value="0.2" step="0.1">
+        </div>
+      </div>
+      <button onclick="calcEISTool()">Calculate Estimate</button>
+      <div id="eisResult" class="tool-result">
+        <p>Your estimate will appear here.</p>
+        <p>💰 <strong>This is a simplified planning estimate.</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tool-section">
+  <div class="container content-wrap">
+    <div class="info-card">
+      <h2>How this EIS calculator works</h2>
+      <p>This calculator estimates employee and employer Employment Insurance System contribution using the monthly salary, wage ceiling and rates entered. It is a simplified planning tool for salary and take-home pay estimation.</p>
+    </div>
+
+    <div class="info-card">
+      <h2>When to use this tool</h2>
+      <p>Use this EIS calculator when checking payslips, comparing job offers or estimating common payroll deductions together with EPF, SOCSO and PCB.</p>
+    </div>
+
+    <div class="info-card">
+      <h2>About This EIS Calculator</h2>
+      <p>This EIS calculator helps Malaysian employees, job seekers, HR practitioners and small business owners estimate the monthly Employment Insurance System contribution deducted from salary. It provides a quick breakdown of both employee and employer EIS portions based on the salary entered, making it easier to plan your take-home pay or compare compensation packages.</p>
+      <p>The tool is designed for general payroll planning and education. It is not a replacement for official PERKESO contribution schedules or employer payroll systems.</p>
+    </div>
+
+    <div class="info-card">
+      <h2>What is EIS?</h2>
+      <p>EIS (Employment Insurance System) is a social security scheme administered by PERKESO (Pertubuhan Keselamatan Sosial) in Malaysia. Introduced under the Employment Insurance System Act 2017, EIS provides financial support to eligible employees who lose their jobs involuntarily, such as through retrenchment, company closure or restructuring.</p>
+      <p>When an insured employee faces job loss, EIS may provide temporary financial assistance, job search allowances, and access to retraining programmes. Both the employee and employer contribute a small percentage of the employee's wages towards the scheme each month.</p>
+    </div>
+
+    <div class="info-card">
+      <h2>EIS Contribution Rates</h2>
+      <p>Under current EIS rules, the monthly contribution rate is typically <strong>0.2% of the employee's wages</strong>, shared equally between the employer and the employee. This means each party contributes 0.2% separately, resulting in a total combined rate of 0.4% per month.</p>
+      <table class="tool-table">
+        <tr><th>Contributor</th><th>EIS Rate</th><th>Example (RM 3,000 salary)</th></tr>
+        <tr><td>Employee</td><td>0.2%</td><td>RM 6.00</td></tr>
+        <tr><td>Employer</td><td>0.2%</td><td>RM 6.00</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>0.4%</strong></td><td><strong>RM 12.00</strong></td></tr>
+      </table>
+      <p>The maximum salary subject to EIS deduction is RM 6,000 per month. Any amount above this ceiling is not subject to EIS contribution, so the maximum employee EIS deduction is RM 12.00 per month.</p>
+    </div>
+
+    <div class="info-card">
+      <h2>Common EIS Calculation Mistakes</h2>
+      <ul>
+        <li><strong>Ignoring the wage ceiling:</strong> Some people mistakenly apply the EIS rate to their full salary even when it exceeds RM 6,000. Contributions are only calculated up to the RM 6,000 ceiling, so salaries above this limit still cap at RM 12.00 (employee share).</li>
+        <li><strong>Confusing EIS with SOCSO rates:</strong> EIS and SOCSO have different contribution rates and wage ceilings. Applying SOCSO rates to EIS calculations — or vice versa — leads to inaccurate estimates. Always check the specific PERKESO schedule for each scheme.</li>
+        <li><strong>Not accounting for part-month wages:</strong> If you start or leave a job partway through the month, your EIS contribution should be based on your actual wages earned in that month, not a full month's salary. Prorating incorrectly can cause discrepancies on your payslip.</li>
+        <li><strong>Forgetting employer portion:</strong> EIS is a shared contribution. Employees sometimes only consider their own deduction and overlook the employer's matching contribution, which is important for understanding total employment cost.</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h2>Malaysia Payroll Note</h2>
+      <p>EIS contribution rates, wage ceilings and eligibility rules are set by PERKESO and the Malaysian government. These figures may be updated periodically through government announcements or PERKESO circulars. The rates used in this calculator are provided as general reference values and may not reflect the very latest official figures.</p>
+      <p>For the most accurate and up-to-date EIS contribution schedules, always refer to the official PERKESO website or consult a qualified payroll professional. This calculator is intended for estimation and educational purposes only and should not be used as a substitute for official payroll processing.</p>
+    </div>
+
+    <div class="info-card faq">
+      <h2>EIS calculator FAQ</h2>
+      <details open>
+        <summary>What is EIS (Employment Insurance System) in Malaysia?</summary>
+        <p>EIS is a social security scheme managed by PERKESO that provides temporary financial support to employees who lose their jobs involuntarily. It covers situations such as retrenchment, company closure, and certain types of resignation. EIS also offers retraining programmes to help affected workers find new employment.</p>
+      </details>
+      <details>
+        <summary>Who needs to contribute to EIS?</summary>
+        <p>All Malaysian citizens and permanent residents who are employed in the private sector and earn a monthly wage of RM 30 or more are required to contribute to EIS. Both the employee and the employer must make monthly contributions, regardless of whether the employment is permanent, temporary, or contract-based.</p>
+      </details>
+      <details>
+        <summary>How much is the EIS contribution rate?</summary>
+        <p>The current EIS contribution rate is 0.2% of wages for the employee and 0.2% for the employer, totalling 0.4% per month. The rate is applied to the employee's monthly wages up to the maximum wage ceiling of RM 6,000. For a RM 3,000 monthly salary, the employee pays RM 6.00 and the employer pays RM 6.00.</p>
+      </details>
+      <details>
+        <summary>What is the maximum salary subject to EIS deduction?</summary>
+        <p>The EIS wage ceiling is RM 6,000 per month. If your monthly salary exceeds RM 6,000, only the first RM 6,000 is used for EIS calculation. This means the maximum monthly EIS deduction for an employee is RM 12.00 (0.2% of RM 6,000), regardless of how much you earn above the ceiling.</p>
+      </details>
+      <details>
+        <summary>How do I claim EIS benefits if I lose my job?</summary>
+        <p>To claim EIS benefits, you must register with PERKESO and submit a claim through the myFutureJobs portal or at a PERKESO branch, typically within 60 days of your last working day. You will need documents such as your termination letter, IC, and bank statements. Approved claimants may receive job-search allowance for up to six months, subject to eligibility conditions.</p>
+      </details>
+      <details>
+        <summary>What is the difference between EIS and SOCSO?</summary>
+        <p>While both EIS and SOCSO are administered by PERKESO, they serve different purposes. SOCSO (also known as PERKESO) primarily covers employment injuries, occupational diseases, and invalidity. EIS specifically provides job-loss protection and retraining support. They have separate contribution rates and calculations, so they appear as distinct items on your payslip.</p>
+      </details>
+      <details>
+        <summary>Is EIS mandatory for all employees in Malaysia?</summary>
+        <p>EIS is mandatory for most private sector employees who are Malaysian citizens or permanent residents, aged between 16 and 60, and earning RM 30 or more per month. However, certain categories of workers such as domestic servants, government employees, and self-employed individuals are generally not covered under EIS unless they opt into a voluntary scheme.</p>
+      </details>
+      <details>
+        <summary>Does a self-employed person need to pay EIS?</summary>
+        <p>Standard EIS contributions apply only to employees in the private sector. Self-employed individuals, freelancers, and gig workers are not automatically covered under the mandatory EIS scheme. However, PERKESO has introduced voluntary contribution schemes such as SIP (Self-Employment Social Protection) which allow self-employed persons to opt in for limited social security coverage, including some EIS-like benefits.</p>
+      </details>
+      <details>
+        <summary>Is EIS the same as SOCSO?</summary>
+        <p>No. EIS and SOCSO are different payroll contribution items. Both may appear on a Malaysian employee payslip, but they are calculated separately.</p>
+      </details>
+      <details>
+        <summary>Is this the official EIS calculation?</summary>
+        <p>No. SalaryToolsMY provides simplified estimates for planning only. Final contribution should follow official PERKESO schedules and payroll rules.</p>
+      </details>
+    </div>
+
+    <div class="callout">
+      <h2>Use the Malaysia salary calculators</h2>
+      <p>Use these free Malaysia salary tools together to estimate salary, take-home pay, EPF, SOCSO, EIS, PCB tax, overtime and bonus planning.</p>
+      <div class="related-grid">
+        <a href="/salary-calculator-malaysia.html">Malaysia Salary Calculator</a>
+        <a href="/net-salary-calculator-malaysia.html">Take-Home Pay Calculator</a>
+        <a href="/epf-calculator-malaysia.html">EPF Calculator Malaysia</a>
+        <a href="/socso-calculator-malaysia.html">SOCSO Calculator Malaysia</a>
+        <a href="/eis-calculator-malaysia.html">EIS Calculator Malaysia</a>
+        <a href="/income-tax-calculator-malaysia.html">Income Tax Calculator Malaysia</a>
+        <a href="/pcb-calculator-malaysia.html">PCB Calculator Malaysia</a>
+        <a href="/overtime-calculator-malaysia.html">Overtime Calculator Malaysia</a>
+        <a href="/bonus-tax-calculator-malaysia.html">Bonus Tax Calculator Malaysia</a>
+        <a href="/salary-guides-malaysia.html">All Salary Guides</a>
+      </div>
+    </div>
+
+    <div class="notice">Important: SalaryToolsMY provides simplified estimates for general planning only. Actual EPF, SOCSO, EIS and PCB amounts may vary based on official contribution schedules, tax profile, payroll settings and employer calculation.</div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <h3>SalaryToolsMY</h3>
+      <p>Free Malaysia salary and payroll estimation tools for employees, job seekers and small business planning.</p>
+    </div>
+    <div>
+      <h3>Tools</h3>
+      <p><a href="/salary-calculator-malaysia.html">Salary Calculator</a></p>
+      <p><a href="/net-salary-calculator-malaysia.html">Take-Home Pay Calculator</a></p>
+      <p><a href="/epf-calculator-malaysia.html">EPF Calculator</a></p>
+      <p><a href="/socso-calculator-malaysia.html">SOCSO Calculator</a></p>
+      <p><a href="/pcb-calculator-malaysia.html">PCB Calculator</a></p>
+    </div>
+    <div>
+      <h3>Guides</h3>
+      <p><a href="/salary-guides-malaysia.html">Salary Guides</a></p>
+      <p><a href="/salary-3000-malaysia.html">RM3,000 Salary</a></p>
+      <p><a href="/salary-5000-malaysia.html">RM5,000 Salary</a></p>
+      <p><a href="/gross-salary-vs-net-salary-malaysia.html">Gross vs Net Salary</a></p>
+    </div>
+    <div>
+      <h3>Legal</h3>
+      <p><a href="/privacy-policy.html">Privacy Policy</a></p>
+      <p><a href="/terms.html">Terms</a></p>
+      <p><a href="/disclaimer.html">Disclaimer</a></p>
+      <p><a href="/contact.html">Contact</a></p>
+      <p><a href="#" data-cookie-preferences>Cookie Preferences</a></p>
+<p><a href="/about.html">About</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 SalaryToolsMY. All calculators are for estimation only.</div>
+</footer>
+
+<script>
+function rm(value){
+  return 'RM' + Number(value || 0).toLocaleString('en-MY',{minimumFractionDigits:2,maximumFractionDigits:2});
+}
+function num(id){
+  return Number(document.getElementById(id)?.value || 0);
+}
+function setResult(id, html){
+  document.getElementById(id).innerHTML = html;
+}
+function calcEISTool(){
+  const salary = num('eisSalary');
+  const ceiling = num('eisCeiling') || 6000;
+  const wage = Math.min(Math.max(salary, 0), ceiling);
+  const employeeRate = num('employeeRate');
+  const employerRate = num('employerRate');
+  const employee = wage * employeeRate / 100;
+  const employer = wage * employerRate / 100;
+  const total = employee + employer;
+  setResult('eisResult', `
+    <table class="tool-table">
+      <tr><th>Item</th><th>Estimate</th></tr>
+      <tr><td>Salary used for estimate</td><td>${rm(wage)}</td></tr>
+      <tr><td>Employee EIS estimate</td><td>${rm(employee)}</td></tr>
+      <tr><td>Employer EIS estimate</td><td>${rm(employer)}</td></tr>
+      <tr><td>Total EIS estimate</td><td><strong>${rm(total)}</strong></td></tr>
+    </table>
+    <p>These figures are simplified estimates for planning only.</p>
+  `);
+}
+</script>
+  <script defer src="/assets/cookie-consent.js"></script>
+</body>
+</html>

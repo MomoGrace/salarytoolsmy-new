@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EPF Calculator Malaysia (Employee & Employer Contribution Estimate)</title>
+<meta name="description" content="Estimate employee and employer EPF contributions for Malaysia salary planning. Calculate monthly and yearly EPF estimates for take-home pay planning.">
+<link rel="canonical" href="https://salarytoolsmy.com/epf-calculator-malaysia.html">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+.tool-page{background:#f6f8fb;}
+.tool-hero{padding:64px 20px;background:linear-gradient(115deg,#dbfff5 0%,#eef7ff 44%,#f8fafc 100%);}
+.tool-hero .hero-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:1fr 520px;gap:42px;align-items:center;}
+.tool-hero h1{font-size:clamp(42px,5vw,68px);line-height:1.05;margin:14px 0 18px;color:#111827;letter-spacing:-.04em;}
+.tool-hero .lead{font-size:18px;line-height:1.75;color:#35506b;margin:0 0 24px;}
+.tool-kicker{display:inline-flex;align-items:center;background:#ccfbf1;color:#006b5f;border-radius:999px;padding:7px 12px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+.tool-card{background:#fff;border:1px solid #dbe3ef;border-radius:22px;padding:28px;box-shadow:0 20px 48px rgba(15,23,42,.10);}
+.tool-card h2{font-size:26px;margin:0 0 18px;color:#001f4d;}
+.tool-card label{display:block;font-weight:800;margin-bottom:8px;color:#001f4d;}
+.tool-card input,.tool-card select{width:100%;box-sizing:border-box;border:1px solid #cbd5e1;border-radius:12px;padding:13px 14px;font-size:16px;background:#fff;}
+.tool-card button{margin-top:14px;background:#0f7f72;color:#fff;border:0;border-radius:12px;padding:14px 18px;font-weight:800;cursor:pointer;box-shadow:0 10px 24px rgba(15,127,114,.18);}
+.tool-card button:hover{background:#0b695f;}
+.tool-result{margin-top:18px;background:#ecfdf8;border:1px solid #75f0dc;border-radius:16px;padding:18px;line-height:1.7;color:#001f4d;}
+.tool-result strong{color:#006b5f;}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.content-wrap{max-width:960px;margin:0 auto;}
+.tool-section{padding:48px 20px;}
+.tool-section .container{max-width:1120px;margin:0 auto;}
+.info-card{background:#fff;border:1px solid #dbe3ef;border-radius:20px;padding:28px;margin:18px 0;box-shadow:0 10px 28px rgba(15,23,42,.05);}
+.info-card h2,.info-card h3{color:#001f4d;margin-top:0;}
+.info-card p,.info-card li{color:#243b53;line-height:1.75;}
+.tool-table{width:100%;border-collapse:collapse;background:#fff;border-radius:16px;overflow:hidden;margin:18px 0;box-shadow:0 8px 22px rgba(15,23,42,.05);}
+.tool-table th,.tool-table td{padding:14px 16px;text-align:left;border-bottom:1px solid #e5edf6;vertical-align:top;}
+.tool-table th{background:#eff6ff;color:#001f4d;font-weight:900;}
+.tool-table tr:last-child td{border-bottom:0;}
+.faq details{background:#fff;border:1px solid #dbe3ef;border-radius:16px;padding:16px 18px;margin:12px 0;}
+.faq summary{font-weight:900;color:#001f4d;cursor:pointer;}
+.faq p{color:#243b53;line-height:1.75;}
+.notice{background:#fff7ed;border:1px solid #fed7aa;border-radius:18px;padding:18px;color:#7c2d12;line-height:1.7;margin-top:24px;}
+.callout{margin:30px 0;padding:28px;border-radius:24px;background:linear-gradient(135deg,#0f766e,#115e59);color:#fff;box-shadow:0 18px 40px rgba(15,118,110,.22);}
+.callout h2{margin-top:0;color:#fff;}
+.callout p{color:#d1fae5;}
+.callout .related-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px;}
+.callout .related-grid a{display:block;background:#fff;border:1px solid #dbe3ef;border-radius:16px;padding:18px;text-decoration:none;color:#001f4d;font-weight:800;box-shadow:0 8px 22px rgba(15,23,42,.04);}
+.callout .related-grid a:hover{border-color:#8bd8ca;transform:translateY(-2px);}
+@media(max-width:920px){.tool-hero .hero-inner{grid-template-columns:1fr}.tool-card{max-width:680px}.callout .related-grid{grid-template-columns:1fr;}.form-grid{grid-template-columns:1fr;}}
+@media(max-width:640px){.tool-hero{padding:44px 16px}.tool-card{padding:22px}.tool-table{font-size:14px}.tool-table th,.tool-table td{padding:12px 10px}}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://salarytoolsmy.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculators",
+      "item": "https://salarytoolsmy.com/salary-calculator-malaysia.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "EPF Calculator",
+      "item": "https://salarytoolsmy.com/epf-calculator-malaysia.html"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "1) Is this EPF calculator an official KWSP calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is an independent planning tool that provides simplified estimates only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "2) Why does my payslip EPF not match exactly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your company may apply official schedule values, specific wage components, or rounding settings that differ from this simplified estimate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "3) Does employer EPF reduce my salary bank-in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Employer EPF is paid by the employer separately and is not deducted from your take-home amount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "4) Should I calculate EPF from basic salary or gross salary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the payroll-relevant wage amount subject to EPF contribution in your company setup, then verify against your payslip."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "5) Can EPF differ during probation or after confirmation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can differ if payroll components or payable wages change, even when the headline monthly salary appears similar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "6) Does unpaid leave affect EPF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, unpaid leave can reduce contributable wages and therefore the monthly EPF amount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "7) Can I use this for annual projection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, as a planning estimate. Enter expected monthly salary and months, then adjust for bonus or variable pay months separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "8) Where should I confirm latest EPF contribution rules?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Confirm with official KWSP publications and your HR/payroll team for current contribution schedules and applicability."
+      }
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/assets/cookie-consent.css">
+</head>
+<body class="tool-page">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="/">SalaryToolsMY</a>
+    <nav class="tool-nav">
+      <a href="/salary-calculator-malaysia.html">Salary</a>
+      <a href="/epf-calculator-malaysia.html">EPF</a>
+      <a href="/socso-calculator-malaysia.html">SOCSO</a>
+      <a href="/pcb-calculator-malaysia.html">PCB Tax</a>
+      <a href="/net-salary-calculator-malaysia.html">Take-Home Pay</a>
+      <a href="/salary-guides-malaysia.html">Guides</a>
+      <a href="/salary-calculator-malaysia.html" class="nav-cta">Calculate Your Take-Home Pay</a>
+    </nav>
+  </div>
+</header>
+<div class="quick-tools">
+  <a href="/salary-calculator-malaysia.html">Salary Calculator</a>
+  <a href="/net-salary-calculator-malaysia.html">Take-Home Pay</a>
+  <a href="/epf-calculator-malaysia.html">EPF Calculator</a>
+  <a href="/socso-calculator-malaysia.html">SOCSO Calculator</a>
+  <a href="/pcb-calculator-malaysia.html">PCB Tax Calculator</a>
+  <a href="/salary-guides-malaysia.html">Salary Guides</a>
+</div>
+
+<main>
+<section class="tool-hero">
+  <div class="hero-inner">
+    <div>
+      <span class="tool-kicker">Free Malaysia calculator</span>
+      <h1>EPF Calculator Malaysia</h1>
+      <p class="lead">Estimate monthly employee and employer EPF contribution amounts for Malaysia salary planning.</p>
+      <div class="hero-actions">
+        <a class="button" href="/salary-calculator-malaysia.html">Calculate Take-Home Pay</a>
+        <a class="button secondary" href="/salary-guides-malaysia.html">Read Salary Guides</a>
+      </div>
+    </div>
+    <div class="tool-card">
+      <h2>EPF Contribution Estimate</h2>
+      <div class="form-grid">
+        <div><label>Monthly Salary (RM)</label><input id="epfSalary" type="number" value="3000"></div>
+        <div><label>Employee EPF Rate (%)</label><input id="employeeRate" type="number" value="11"></div>
+        <div><label>Employer EPF Rate (%)</label><input id="employerRate" type="number" value="13"></div>
+        <div><label>Months</label><input id="months" type="number" value="12"></div>
+      </div>
+      <button onclick="calcEPFTool()">Calculate Estimate</button>
+      <div id="epfResult" class="tool-result"><p>Your estimate will appear here.</p><p>💰 <strong>This is a simplified planning estimate.</strong></p></div>
+    </div>
+  </div>
+</section>
+<section class="tool-section">
+  <div class="container content-wrap">
+        <div class="info-card"><h2>About this EPF calculator</h2><p>This EPF Calculator Malaysia is built for quick payroll planning. Enter your monthly salary, pick the employee and employer rates your company applies, and the tool estimates monthly and yearly KWSP contribution amounts. It is most useful when you want a fast view before preparing a full payslip, comparing offers, or budgeting your monthly cash flow.</p><p>Important: this page gives an estimate only. In real payroll, contribution amounts can depend on statutory tables, age category, and payroll rounding rules. Always verify final amounts with official KWSP contribution guidance and your payroll administrator.</p></div>
+    <div class="info-card"><h2>What EPF / KWSP means in Malaysia</h2><p>EPF (Employees Provident Fund), also known as KWSP (Kumpulan Wang Simpanan Pekerja), is a mandatory retirement savings system for eligible employees in Malaysia. For most employees, a portion of monthly wages is deducted as employee EPF, and the employer contributes an additional amount. Over time, the balance becomes long-term savings for retirement, with specific withdrawal rules and account structures set by KWSP.</p><p>From a payroll perspective, EPF is one of the core statutory deductions in Malaysia, together with SOCSO, EIS and (where applicable) PCB. Because EPF directly reduces immediate take-home cash while increasing long-term savings, understanding the contribution impact is essential for both employees and employers.</p></div>
+    <div class="info-card"><h2>Employee vs employer EPF contribution overview</h2><p>When people say “my EPF deduction,” they usually mean the employee share shown on the payslip. But there are two components:</p><ul><li><strong>Employee contribution:</strong> deducted from the employee’s wages and reduces monthly net pay.</li><li><strong>Employer contribution:</strong> paid by the employer on top of salary cost, and does not come out of the employee’s bank-in amount.</li></ul><p>This distinction matters in job-offer discussions. Two offers with the same gross salary can still differ in total employer cost and long-term retirement contribution if employer EPF treatment differs. For personal budgeting, focus on employee EPF for cash flow; for total compensation comparison, include employer EPF too.</p></div>
+    <div class="info-card"><h2>EPF example table (planning estimate)</h2><p>The table below uses a simple planning assumption of <strong>11% employee</strong> and <strong>13% employer</strong> contribution rates to show how EPF scales with salary.</p><table class="tool-table"><tr><th>Monthly Salary</th><th>Employee EPF (11%)</th><th>Employer EPF (13%)</th><th>Total Monthly EPF</th></tr><tr><td>RM2,500</td><td>RM275.00</td><td>RM325.00</td><td>RM600.00</td></tr><tr><td>RM5,000</td><td>RM550.00</td><td>RM650.00</td><td>RM1,200.00</td></tr><tr><td>RM8,000</td><td>RM880.00</td><td>RM1,040.00</td><td>RM1,920.00</td></tr></table><p>These values are illustrative and may differ from actual payroll because statutory rules can vary by category and current policy updates.</p></div>
+    <div class="info-card"><h2>How EPF affects take-home pay</h2><p>EPF has an immediate and visible impact on cash in hand. If your gross salary is RM5,000 and employee EPF is RM550, your payslip net amount starts RM550 lower even before SOCSO, EIS, PCB, and other deductions are considered. That is why employees often feel their “real” spendable salary is very different from the offer letter figure.</p><p>At the same time, EPF is not a lost cost. It becomes retirement savings under your EPF account. A practical way to think about it:</p><ul><li><strong>Short-term:</strong> lower monthly disposable income.</li><li><strong>Long-term:</strong> compulsory savings discipline.</li><li><strong>Compensation analysis:</strong> include employer EPF when evaluating total package value.</li></ul></div>
+    <div class="info-card"><h2>Why actual EPF deductions may differ</h2><p>Even when salary is unchanged, EPF on the payslip can differ from a quick calculator due to several reasons: eligible wage definition, statutory schedules, employee age category, payroll cycle cut-off, rounding treatment, unpaid leave, prorated joining/resignation periods, and company payroll configuration. Some businesses also process adjustments from previous months, which can shift the current month’s displayed deduction.</p><p>Because these variables are payroll-system specific, this calculator is best used for scenario planning rather than final compliance output. Always check your official payslip and HR/payroll policy document.</p></div>
+    <div class="info-card"><h2>Common EPF calculation mistakes</h2><ul><li><strong>Confusing employee and employer amounts:</strong> only employee EPF reduces net pay.</li><li><strong>Assuming one fixed rate for all cases:</strong> statutory rates can vary by eligibility and policy updates.</li><li><strong>Using gross annual offer as monthly payroll input:</strong> monthly deductible wages must be entered correctly.</li><li><strong>Ignoring prorated months:</strong> new joiners and final-month resignations often need prorated treatment.</li><li><strong>Skipping payslip reconciliation:</strong> always compare calculator output with actual payroll entries.</li></ul></div>
+    <div class="info-card"><h2>When to use this calculator</h2><p>Use this tool when you need a fast EPF estimate during salary negotiation, budgeting, payroll cross-checking, or long-term savings planning. It is especially helpful for:</p><ul><li>Job seekers comparing two offers with different gross salary ranges.</li><li>Employees reviewing monthly take-home variance.</li><li>Small business owners preparing preliminary payroll budgets.</li><li>Frequent overtime/allowance earners who want quick scenario checks.</li></ul><p>For compliance submissions, always use official KWSP rules and your payroll software outputs.</p></div>
+    <div class="info-card faq"><h2>EPF calculator FAQ</h2><details open><summary>1) Is this EPF calculator an official KWSP calculator?</summary><p>No. It is an independent planning tool that provides simplified estimates only.</p></details><details><summary>2) Why does my payslip EPF not match exactly?</summary><p>Your company may apply official schedule values, specific wage components, or rounding settings that differ from this simplified estimate.</p></details><details><summary>3) Does employer EPF reduce my salary bank-in?</summary><p>No. Employer EPF is paid by the employer separately and is not deducted from your take-home amount.</p></details><details><summary>4) Should I calculate EPF from basic salary or gross salary?</summary><p>Use the payroll-relevant wage amount subject to EPF contribution in your company setup, then verify against your payslip.</p></details><details><summary>5) Can EPF differ during probation or after confirmation?</summary><p>It can differ if payroll components or payable wages change, even when the headline monthly salary appears similar.</p></details><details><summary>6) Does unpaid leave affect EPF?</summary><p>Yes, unpaid leave can reduce contributable wages and therefore the monthly EPF amount.</p></details><details><summary>7) Can I use this for annual projection?</summary><p>Yes, as a planning estimate. Enter expected monthly salary and months, then adjust for bonus or variable pay months separately.</p></details><details><summary>8) Where should I confirm latest EPF contribution rules?</summary><p>Confirm with official KWSP publications and your HR/payroll team for current contribution schedules and applicability.</p></details></div>
+<div class="callout">
+      <h2>Use the Malaysia salary calculators</h2>
+      <p>Use these free Malaysia salary tools together to estimate salary, take-home pay, EPF, SOCSO, EIS, PCB tax, overtime and bonus planning.</p>
+      <div class="related-grid">
+        <a href="/salary-calculator-malaysia.html">Malaysia Salary Calculator</a>
+        <a href="/net-salary-calculator-malaysia.html">Take-Home Pay Calculator</a>
+        <a href="/epf-calculator-malaysia.html">EPF Calculator Malaysia</a>
+        <a href="/socso-calculator-malaysia.html">SOCSO Calculator Malaysia</a>
+        <a href="/eis-calculator-malaysia.html">EIS Calculator Malaysia</a>
+        <a href="/income-tax-calculator-malaysia.html">Income Tax Calculator Malaysia</a>
+        <a href="/pcb-calculator-malaysia.html">PCB Calculator Malaysia</a>
+        <a href="/overtime-calculator-malaysia.html">Overtime Calculator Malaysia</a>
+        <a href="/bonus-tax-calculator-malaysia.html">Bonus Tax Calculator Malaysia</a>
+        <a href="/salary-guides-malaysia.html">All Salary Guides</a>
+      </div>
+    </div>
+    <div class="notice">Important: SalaryToolsMY provides simplified estimates for general planning only. Actual EPF, SOCSO, EIS and PCB amounts may vary based on official contribution schedules, tax profile, payroll settings and employer calculation.</div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <div><h3>SalaryToolsMY</h3><p>Free Malaysia salary and payroll estimation tools for employees, job seekers and small business planning.</p></div>
+    <div><h3>Tools</h3><p><a href="/salary-calculator-malaysia.html">Salary Calculator</a></p><p><a href="/net-salary-calculator-malaysia.html">Take-Home Pay Calculator</a></p><p><a href="/epf-calculator-malaysia.html">EPF Calculator</a></p><p><a href="/socso-calculator-malaysia.html">SOCSO Calculator</a></p><p><a href="/pcb-calculator-malaysia.html">PCB Calculator</a></p></div>
+    <div><h3>Guides</h3><p><a href="/salary-guides-malaysia.html">Salary Guides</a></p><p><a href="/salary-3000-malaysia.html">RM3,000 Salary</a></p><p><a href="/salary-5000-malaysia.html">RM5,000 Salary</a></p><p><a href="/gross-salary-vs-net-salary-malaysia.html">Gross vs Net Salary</a></p></div>
+    <div><h3>Legal</h3><p><a href="/privacy-policy.html">Privacy Policy</a></p><p><a href="/terms.html">Terms</a></p><p><a href="/disclaimer.html">Disclaimer</a></p><p><a href="/contact.html">Contact</a></p>
+      <p><a href="#" data-cookie-preferences>Cookie Preferences</a></p>
+<p><a href="/about.html">About</a></p></div>
+  </div>
+  <div class="footer-bottom">© 2026 SalaryToolsMY. All calculators are for estimation only.</div>
+</footer>
+<script>
+function rm(value){return 'RM' + Number(value || 0).toLocaleString('en-MY',{minimumFractionDigits:2,maximumFractionDigits:2});}
+function num(id){return Number(document.getElementById(id)?.value || 0);}
+function setResult(id, html){document.getElementById(id).innerHTML = html;}
+function calcEPFTool(){
+ const salary=num('epfSalary'), er=num('employeeRate'), mr=num('employerRate'), months=Math.max(1,num('months'));
+ const employee=salary*er/100, employer=salary*mr/100, total=employee+employer;
+ setResult('epfResult', `<table class="tool-table"><tr><th>Item</th><th>Estimate</th></tr><tr><td>Employee EPF per month</td><td>${rm(employee)}</td></tr><tr><td>Employer EPF per month</td><td>${rm(employer)}</td></tr><tr><td>Total EPF per month</td><td>${rm(total)}</td></tr><tr><td>Total for ${months} months</td><td><strong>${rm(total*months)}</strong></td></tr></table><p>These figures are simplified estimates for planning only.</p>`);
+}
+</script>
+  <script defer src="/assets/cookie-consent.js"></script>
+</body>
+</html>
