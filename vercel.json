@@ -1,0 +1,64 @@
+{
+  "redirects": [
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.html",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html",
+      "permanent": true
+    },
+    {
+      "source": "/disclaimer",
+      "destination": "/disclaimer.html",
+      "permanent": true
+    },
+    {
+      "source": "/salary-guides-malaysia",
+      "destination": "/salary-guides-malaysia.html",
+      "permanent": true
+    },
+    {
+      "source": "/salary-calculator-malaysia",
+      "destination": "/salary-calculator-malaysia.html",
+      "permanent": true
+    },
+    {
+      "source": "/epf-calculator-malaysia",
+      "destination": "/epf-calculator-malaysia.html",
+      "permanent": true
+    },
+    {
+      "source": "/socso-calculator-malaysia",
+      "destination": "/socso-calculator-malaysia.html",
+      "permanent": true
+    },
+    {
+      "source": "/pcb-calculator-malaysia",
+      "destination": "/pcb-calculator-malaysia.html",
+      "permanent": true
+    },
+    {
+      "source": "/net-salary-calculator-malaysia",
+      "destination": "/net-salary-calculator-malaysia.html",
+      "permanent": true
+    }
+  ]
+}
